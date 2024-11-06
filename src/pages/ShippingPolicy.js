@@ -5,8 +5,8 @@ import Meta from "../components/Meta";
 const ShippingPolicy = () => {
   return (
     <>
-      <Meta title={"Signup"} />
-      <BreadCrumb title={"Signup"} />
+      <Meta title={"ShippingPolicy"} />
+      <BreadCrumb title={"ShippingPolicy"} />
       <section className="policy-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">

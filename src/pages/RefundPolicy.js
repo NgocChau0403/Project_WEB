@@ -5,8 +5,8 @@ import Meta from "../components/Meta";
 const RefundPolicy = () => {
   return (
     <>
-      <Meta title={"Signup"} />
-      <BreadCrumb title={"Signup"} />
+      <Meta title={"RefundPolicy"} />
+      <BreadCrumb title={"RefundPolicy"} />
       <section className="policy-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">

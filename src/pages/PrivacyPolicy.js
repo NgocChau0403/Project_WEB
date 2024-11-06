@@ -5,8 +5,8 @@ import Meta from "../components/Meta";
 const PrivacyPolicy = () => {
   return (
     <>
-      <Meta title={"Signup"} />
-      <BreadCrumb title={"Signup"} />
+      <Meta title={"PrivacyPolicy"} />
+      <BreadCrumb title={"PrivacyPolicy"} />
       <section className="policy-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
