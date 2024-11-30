@@ -6,6 +6,7 @@ import user from "../images/user.svg";
 import wishlist from "../images/wishlist.svg";
 import compare from "../images/compare.svg";
 import menu from "../images/menu.svg";
+import logo from "../images/logo512.png";
 
 const Header = () => {
   return (
@@ -35,7 +36,10 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white">
+                  <span className="text-tech">Tech</span>Nest
+                  <img src={logo} alt="Logo TechNest" class="logo"></img>
+                </Link>
               </h2>
             </div>
             <div className="col-5">
@@ -72,7 +76,7 @@ const Header = () => {
                   >
                     <img src={wishlist} alt="wishlist" />
                     <p className="mb-0">
-                      Favourite <br /> wishlist
+                      Favourite <br /> Wishlist
                     </p>
                   </Link>
                 </div>
@@ -119,7 +123,7 @@ const Header = () => {
                       aria-expanded="false"
                     >
                       <img src={menu} alt="" />
-                      <span className="me-5 d-inline-block">
+                      <span className="me-1 d-inline-block">
                         Shop Categories
                       </span>
                     </button>

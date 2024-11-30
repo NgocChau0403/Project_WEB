@@ -14,6 +14,7 @@
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
+  --color-0e4a5f: #0e4a5f;
 }
 .section-heading {
   font-size: 26px;
@@ -68,6 +69,19 @@ a {
 .header-bottom {
   background-color: var(--color-232f3e);
 }
+.header-upper .text-tech {
+  color: #47a6c9;
+}
+.logo-container {
+  display: flex;
+  align-items: right;
+}
+.logo {
+  width: 35px; /* Điều chỉnh kích thước logo theo ý muốn */
+  height: 35px;
+  margin-left: 10px; /* Khoảng cách giữa chữ và logo */
+  border-radius: 20%;
+}
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
 }
@@ -92,7 +106,7 @@ a {
 }
 .header-bottom .dropdown-menu {
   background-color: var(--color-131921);
-  width: 250px;
+  width: 200px;
   transform: translate3d(0px, 57px, 0px) !important;
 }
 .header-bottom .dropdown-item {
@@ -275,6 +289,12 @@ footer .input-group-text {
 }
 .product-card .product-image img {
   object-fit: contain;
+}
+.other-product-images {
+  width: fit-content; /* Adjust width as needed */
+}
+.product-thumbnail {
+  width: 100px; /* Adjust width as needed */
 }
 .product-card .product-image > img:last-child {
   display: none;

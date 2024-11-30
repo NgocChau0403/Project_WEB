@@ -37,32 +37,32 @@ const SingleProduct = () => {
                 <ReactImageZoom {...props} />
               </div>
             </div>
-            <div className="other-product-images d-flex flex-wrap gap-15">
+            <div className="other-product-images d-flex gap-15">
               <div>
                 <img
                   src="https://the1916company.imgix.net/cms/1908_M52506_0002_banner_generator_v1_1500x1800_bec4d2fe44.jpg"
-                  className="img-fluid"
+                  className="img-fluid product-thumbnail"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   src="https://the1916company.imgix.net/cms/1908_M52506_0002_banner_generator_v1_1500x1800_bec4d2fe44.jpg"
-                  className="img-fluid"
+                  className="img-fluid product-thumbnail"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   src="https://the1916company.imgix.net/cms/1908_M52506_0002_banner_generator_v1_1500x1800_bec4d2fe44.jpg"
-                  className="img-fluid"
+                  className="img-fluid product-thumbnail"
                   alt=""
                 />
               </div>
               <div>
                 <img
                   src="https://the1916company.imgix.net/cms/1908_M52506_0002_banner_generator_v1_1500x1800_bec4d2fe44.jpg"
-                  className="img-fluid"
+                  className="img-fluid product-thumbnail"
                   alt=""
                 />
               </div>
@@ -111,9 +111,6 @@ const SingleProduct = () => {
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h3 className="product-heading">Availablity:</h3>
                   <p className="product-data">In Stock</p>
-                </div>
-                <div className="d-flex gap-10 flex-column mt-2 mb-3 ">
-                  <h3 className="product-heading">Color:</h3>
                 </div>
                 <div className="d-flex align-items-center gap-15 flex-row mt-2 mb-3">
                   <h3 className="product-heading">Quantity:</h3>

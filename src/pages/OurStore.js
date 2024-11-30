@@ -73,21 +73,6 @@ const OurStore = () => {
                     <label htmlFor="floatingInput">To</label>
                   </div>
                 </div>
-                <h5 className="sub-title">Colors</h5>
-                <div>
-                  <ul className="colors ps-0"></ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </div>
               </div>
             </div>
             <div className="filter-card mb-3">
